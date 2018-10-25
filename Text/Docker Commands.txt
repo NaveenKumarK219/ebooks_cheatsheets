@@ -65,6 +65,6 @@
 	Ex 2: docker run --rm -it -d -p 8080:15672 -p 5671:5671 -p 5672:5672 --hostname my-rabbit --name bank-rabbit rabbitmq:3-management
 	
 15. Command to run rabbitmq management web tool.
-	docker run -d -p 15672:15672 --hostname my-rabbit --name CONTAINER_NAME rabbitmq:3-management
+	docker run --rm -it -d -p 15672:15672 --hostname my-rabbit --name CONTAINER_NAME rabbitmq:3-management
 	{The default username and password is guest and guest)
 	
