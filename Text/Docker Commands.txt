@@ -61,10 +61,25 @@
 	
 14. Command to run rabbitmq image:
 	docker run --rm -it -d -p CONTAINER_PORT:SERVER_PORT --hostname my-rabbit --name CONTAINER_NAME rabbitmq
-	Ex 1: docker run --rm -it -d -p 5672:5672 --hostname my-rabbit --name bank-rabbit rabbitmq
-	Ex 2: docker run --rm -it -d -p 8080:15672 -p 5671:5671 -p 5672:5672 --hostname my-rabbit --name bank-rabbit rabbitmq:3-management
+	Ex 1: docker run --rm -i -t -d -p 5672:5672 --hostname my-rabbit --name bank-rabbit rabbitmq
+	Ex 2: docker run --rm -i -t -d -p 8080:15672 -p 5671:5671 -p 5672:5672 --hostname my-rabbit --name bank-rabbit rabbitmq:3-management
 	
 15. Command to run rabbitmq management web tool.
-	docker run --rm -it -d -p 15672:15672 --hostname my-rabbit --name CONTAINER_NAME rabbitmq:3-management
+	docker run --rm -i -t -d -p 15672:15672 --hostname my-rabbit --name CONTAINER_NAME rabbitmq:3-management
 	{The default username and password is guest and guest)
+	
+16. Command to run sql server.
+	docker run --rm -i -t -d -e ACCEPT-EULA=Y -e sa_password=SqlServer@123 -p 1433:1433 --name sql-server microsoft/mssql-server-linux
+	docker run --rm -i -t -d -e ACCEPT-EULA=Y -e sa_password=SqlServer@123 -p 1433:1433 --name sql-server microsoft/mssql-server-windows-express
+
+17. docker run command options:
+	-d, --detach		:	Run container in background and print Container ID
+	--rm				:	Removes container after it stops
+	-i, --interactive	:	Keeps STDIN opens even if not attached
+	-t, --tty			:	Allocates a pseudo TTY (TTY means console/shell)
+	-p, --publish		:	Publishes a container port on the specified port
+	-P, --publish-all	:	Publishes all exposed ports to random ports
+	-h, --hostname		:	Specifies container's hostname
+	--name				:	Assignes a name to the container
+	-e					:	Set environment variable
 	
