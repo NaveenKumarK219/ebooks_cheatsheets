@@ -1,0 +1,36 @@
+Steps to debug a Remote Java Application in VsCode.
+
+1. Open launch.json
+2. Add below configuration for remote java application
+
+"version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "projectName": "RemoteProjectName",
+            "request": "attach",
+            "hostName": "server_host_name",
+            "port": server_debug_port
+        }
+    ]
+
+Example: 
+
+"version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "projectName": "MyApplication",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 8787
+        }
+    ]
+
+Note: 8787 is default debugging port for Wildfly Server. If you are using any other server, use respective port and make sure debugging is enabled in server setting.
+
+3. Deploy the application.
+4. Add breakpoints.
+5. Press F5 to launch the above debug configuration.
