@@ -1,0 +1,22 @@
+Git Commands :
+
+1. To initialize a local git repository.
+    git init
+
+2. To connect a local repository to a remote repository.
+    git remote add origin REMOTE_REPOSITORY_URL
+
+3. To view the staged changes in local repository.
+    git status
+
+4. To stage single file changes in local repository.
+    git add FILE_NAME
+    
+5. To stage all changes in local repository
+    git add .
+
+6. To commit staged changes in local repository.
+    git commit -m "COMMIT_MESSAGE"
+
+7. To push committed changes from local repository to remote master repository
+    git push origin master
