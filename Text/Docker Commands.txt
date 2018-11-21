@@ -82,4 +82,6 @@
 	-h, --hostname		:	Specifies container's hostname
 	--name				:	Assignes a name to the container
 	-e					:	Set environment variable
-	
+
+18. Command to run Linux.
+	docker run -ti ubuntu
