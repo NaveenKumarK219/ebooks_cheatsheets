@@ -20,3 +20,6 @@ Git Commands :
 
 7. To push committed changes from local repository to remote master repository
     git push origin master
+	
+8. To pull code from remote master branch to local master branch.
+	git pull origin master
