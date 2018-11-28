@@ -1,0 +1,13 @@
+How to insert code snippet in Microsoft Word
+
+1. Go to "insert" tab, click "object" button (it's on the right).
+2. Choose "OpenDocument Text" which will open a new embedded word document.
+3. Copy and paste your code from Visual Studio / Eclipse inside this embedded word pages.
+4. Save and close.
+
+The result looks very nice. Here are the advantages of this method:
+
+The code keeps its original layout and colour.
+The code is separated from the rest of the document, as if it was a picture or a chart
+Spelling errors won't be highlighted in the code (this is cool !)
+And it takes only few seconds.
