@@ -360,6 +360,9 @@ Linux Basic Commands :
 	$ find ./DIRECTORY_NAME
 	This command lists all the files/directories in specified directory.
 	
+	$ find / -type d -name 'DIRECTORY_NAME'
+	This command finds the specified directory.
+	
 34. $ diff FILE-1 FILE-2
 	This command shows the difference between two files.
 	

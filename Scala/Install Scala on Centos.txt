@@ -1,0 +1,24 @@
+How to install Scala on Centos
+
+Make sure JDK 8 or later is installed before proceeding.
+
+1.  $ cd ~
+	Move to home directory.
+	
+2.	$ sudo yum install wget
+	Install wget command. Ignore if already installed.
+	
+3.	$ wget http://downloads.lightbend.com/scala/2.11.8/scala-2.11.8.rpm
+	Download the latest Scala RPM file from official website. As of now it is version 2.11.8.
+	
+4.	$ sudo yum install scala-2.11.8.rpm
+	Install Scala from RPM file.
+	
+5.  $ scala -version
+	Check the installation.
+	
+6.	$ scala
+	Run the Scala Shell or Scala Command Line.
+	
+7.	scala> 5+5
+	Executes the given expression.

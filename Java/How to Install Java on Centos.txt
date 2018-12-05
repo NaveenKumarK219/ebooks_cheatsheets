@@ -1,0 +1,29 @@
+Install JAVA 8 from OpenJDK on Centos
+
+1.  $ sudo yum update -y && reboot
+	Update the system packages and reboot the system.
+	
+2.	$ sudo yum install java-1.8.0-openjdk-devel
+	Install Java 8.
+
+3.	$ java -version
+	Check Java is installed or not.
+	
+4.	$ sudo cp /etc/profile /etc/profile_backup
+	Take backup of profile before setting environment variables for Java, in case anything goes wrong.
+	
+5.	$ echo 'export JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk' | sudo tee -a /etc/profile
+	Set JAVA_HOME environment variable.
+	
+6.	$ echo 'export JRE_HOME=/usr/lib/jvm/jre' | sudo tee -a /etc/profile
+	Set JRE_HOME environment variable.
+	
+7.  $ source /etc/profile
+	Sets the variables.
+	
+8.	$ echo $JAVA_HOME
+	$ echo $JRE_HOME
+	Check the variables value.
+	
+9.	$ sudo yum remove java-1.8.0-openjdk-devel
+	Un-install JDK 8	

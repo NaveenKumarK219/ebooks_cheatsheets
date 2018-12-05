@@ -1,0 +1,38 @@
+How to compile and run a scala file
+
+1.	scala> vi hello.scala
+	Create a scala file.
+	
+2.  object HelloWorld {
+		def main(args: Array[String]) {
+			println("Hello World!")
+		}
+	}
+	
+	Copy this code or use your own code.
+	Press CTRL+C and type :wq to save and exit vi.
+	
+3.  scala> scalac hello.scala
+	Compiles the hello.scala file and creates two files : HelloWorld.class HelloWorld$.class
+	
+4.  scala> scala HelloWorld
+	Runs the compiled code and prints Hello World.
+	
+We can embed Scala functions into a bash script, and then run the script using bash
+
+1.  vi script.sh
+	Open script file.
+	
+2.  #!/bin/sh
+	exec scala "$0" "$@"
+	!#
+	object HelloWorld extends App {
+		println("Hello world!")
+	}
+
+	HelloWorld.main(args)
+	
+	Press CTRL+C and type :wq to save and exit vi.
+	
+3.  scala> sh script.sh
+	Run the script file.
