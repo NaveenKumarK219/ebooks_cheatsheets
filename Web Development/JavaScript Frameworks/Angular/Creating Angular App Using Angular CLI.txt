@@ -1,0 +1,30 @@
+1. Install Node.js v9.x or greater.
+2. Install npm v5.x or greater.
+3. Check whether they are installed correctly or not by running below commands on command line/terminal.
+	npm -v
+	node -v
+4. Install Angular CLI by running below command:
+	npm install -g @angular/cli
+5. Go to the path by using cd command where you want to create the angular application. Type below command to create a new project:
+	ng new your_project_name
+	ng new your_project_name --skip-tests true	// To skip tests
+6. Go to the project parent directory using cd command and launch the server using below command:
+	ng serve --open
+	OR
+	ng serve -o
+	The application will be launched in the browser on port 4200.
+	
+	
+========= To change package manager to yarn =========
+
+ng config -g cli.packageManager yarn
+
+========= To change package manager to npm =========
+
+ng config -g cli.packageManager npm
+
+========= Install bootstrap using yarn =========
+
+yarn add bootstrap
+yarn add ngx-bootstrap	// To install 3rd party bootstrap components
+
