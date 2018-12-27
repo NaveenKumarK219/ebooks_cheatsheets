@@ -1,0 +1,517 @@
+Linux Basic Commands : 
+
+1.  $ ls
+	To list all the files and directories in the current working directory.
+	
+	$ ls ~
+	To list all the files and directories in the home directory.
+	
+	$ ls -ltr FILE_NAME
+	To display details of a specified file.
+	
+	$ ls -l -t -r -h -a
+	This command will list you all files according to the order of time in which they were created. Here “ltr” stands for,
+	-l : displays file in columns with more details like owner of file, File size, date etc.
+	-t : displays file/directory sorted by time.
+	-r : recursive.
+	-h : displays the file/directory in human readable form.
+	-a : displays hidden (file/directory name starting with dot) files. 
+	The list displayed contains a file name, file permissions, owner of the file, group, date and time of file creation and links.
+	
+	$ ls FILE_NAME/DIRECTORY_NAME
+	This command shows the contents present in file/directory.
+	
+	$ ls *.FILE_EXTENSION
+	This command displays files based on given wild-card and file extension.
+	
+	$ ls | head
+	This command will list first ten file/directory of the current working directory.
+	
+2.  $ df
+	This command shows available and total Disk Space of Linux System.
+	df : Disk File System
+	
+	$ df -h
+	This command works same as above, but it shows details in Human Readable Form (i.e. MB, GB, Bytes etc)
+	-h : Human Readable Form
+	
+3.  $ mkdir DIRECTORY_NAME
+	This command creates a new directory in current working directory.
+	
+	$ mkdir -p DIRECTORY_NAME/CHILD_DIRECTORY_NAME/SUBCHILD_DIRECTORY_NAME
+	This command is used to make nested directories.
+	
+4.  $ rm FILE_NAME
+	This command removes a file from Linux File System in the current working directory.
+	
+	$ rm -r FILE/DIRECTORY
+	This command will remove the non-empty file/directory.
+	
+	$ rm -rf DIRECTORY
+	This command will remove the directory which does not exist, it will give a warning message but with the help of f flag, we can remove the directory and ignore the warning message.
+	
+5.  $ rmdir EMPTY_DIRECTORY_NAME
+	This command removes specified directory from the Linux File System. The directory must be empty.
+	
+	$ rmdir -r NON_EMPTY_DIRECTORY_NAME
+	This command removes the empty as well as non-empty directories.
+	
+6.  $ pwd
+	This command gives name of current working directory.
+	
+	$ VARIABLE_NAME = pwd
+	This command will save the path of current directory in the VARIABLE_NAME
+	
+7.  $ cd DIRECTORY_NAME
+	This command changes from current directory to specified directory.
+	
+	$ cd /
+	This command navigates to root directory.
+	
+	$ cd ..
+	This command navigates to previous directory, if any.
+	
+	$ cd -
+	This command navigates to most recently visited previous directory.
+	
+	$ cd $VARIABLE_NAME
+	This command changes directory to path stored in the VARIABLE_NAME.
+	
+	$ cd PATH/TO/THE/DIRECTORY
+	This command changes the directory to mentioned path.
+	
+8.  $ clear
+	This command clears the console/terminal screen.
+	
+9.  $ mv OLD_NAME NEW_NAME
+	This command renames a file/directory.
+	
+	$ mv FILE_NAME/DIRECTORY_NAME PATH/TO/DESTINATION_DIRECTORY
+	This command moves a file/directory to specified destination.
+	
+	$ mv FILE_1 DIRECTORY-1/DIRECTORY-2/FILE-2
+	This command will move the FILE-1 to DIRECTORY-1/DIRECTORY-2/ and rename the FILE-1 to FILE-2.
+	
+	$ mv FILE-1 FILE-1.1
+	$ mv FILE-2 FILE-1
+	$ mv FILE-1.1 FILE-2
+	This commands will swap the name of two files.
+	
+	$ mv FILE_NAME.SOME_EXTENSION FILE-1.ANOTHER_EXTENSION
+	OR
+	$ mv FILE_NAME.{SOME_EXTENSION,ANOTHER_EXTENSION}
+	This command will change a file name extension to another extension.
+	
+	$ mv FILE_NAME -n DIRECTORY_NAME/
+	This command will move the specified file to specified directory. If the same file name already exist in moving directory, then it will overwrite the existing file with moving file.
+	
+10. $ cp SOURCE_FILE_NAME DESTINATION_FILE_NAME
+	This command copies contents of source file into destination file. If destination file doesn't exist, then first it creates the file then copies the data. If destination file already exist, then it overwrites the data without any warning.
+	
+	$ cp FILE-1 FILE-2 FILE-3 FILE-N DESTINATION_DIRECTORY
+	This command copies one or multiple file with same name into specified directory .
+	
+	$ cp -i SOURCE_FILE_NAME DESTINATION_FILE_NAME
+	This command performs same task as above command. But it doesn't overwrite directly in case of destination file already exists. It asks user before overwriting, if user press y then it overwrites otherwise not.
+	
+	$ cp -b SOURCE_FILE_NAME DESTINATION_FILE_NAME
+	The option -b creates a backup of destination file before overwriting it with the same name but in different format.
+	
+	$ cp -f SOURCE_FILE_NAME DESTINATION_FILE_NAME
+	The option -f denotes Force Copy. If user doesn't have writing permission for destination file, then this command first deletes destination file then performs copy operation.
+	
+	$ cp -p SOURCE_FILE_NAME DESTINATION_FILE_NAME
+	The option -p denotes Preserve. This command copies the preserved characteristics of source file to destination file.
+	
+	$ cp WILDCARD_CHARACTER.FILE_EXTENSION DESTINATION_DIRECTORY
+	The wild-card option copies the files based on given wild-card and file extension.
+	
+	$ cp -R SOURCE_DIRECTORY DESTINATION_DIRECTORY
+	This command copies files of source directory to destination directory. -R or -r option denotes the copying behaviour of directory structure recursively.
+	
+11. $ cat FILE_NAME
+	This command displays contents of the specified file on the standard output device i.e. screen.
+	
+	$ cat FILE-1 FILE-2 FILE-3 FILE-N
+	This command displays contents of multiple files at the same time.
+	
+	$ cat -n FILE_NAME
+	This command prints contents of a file with line number.
+	
+	$ cat FILE-1>>FILE-2
+	This command appends the contents of FILE-2 to the end of FILE-1.
+	
+	$ cat FILE-1 FILE-2>>FILE-3
+	This command appends the contents of FILE-1 to the end of FILE-3 and then append it to the end of FILE-2.
+	
+	$ cat FILE_NAME | wc -l
+	This command counts and prints number of lines in the specified file.
+	l : lines
+	
+	$ cat FILE_NAME | wc -w
+	This command counts and prints number of words in the specified file.
+	w : words
+	
+	$ cat FILE_NAME | wc -c
+	This command counts and prints number of characters in the specified file.
+	c : characters
+	
+	$ cat FILE_NAME | uniq
+	This command will display the file which shows only unique entries .It display duplicate record only once.
+
+	$ cat file.txt | uniq | sort
+	This command displays unique and sorts the specified file.
+	
+	$ cat file.txt | sort | uniq –d
+	This command displays non-unique entries in a sorted form.
+	
+12. $ du FILE_NAME/DIRECTORY_NAME
+	This command displays how much space occupied by the file/directory.
+	du : Disk Utility
+	
+	$ du -s FILE_NAME/DIRECTORY_NAME
+	This command displays summary of space occupied by the file/directory.
+	
+	$ du -h FILE_NAME/DIRECTORY_NAME
+	This command displays space occupied by the file/directory in human readable form i.e. MB, GB, KB etc
+	
+	$ du -a DIRECTORY_NAME
+	The -a option displays estimated disk usage for all files in current directory.
+	
+13. $ touch FILE_NAME
+	This command creates an empty file with the specified name in the present working directory of the user. An empty file with size 0 bytes gets created which remains unchanged until the user makes any changes to it.
+	
+14. $ who
+	This command displays number of users currently logged on the Linux OS.
+	
+15. $ echo TEXT_TO_BE_DISPLAYED
+	This command displays all the text written after the word echo.
+	
+	$ echo -e "\tString\nDisplay"
+	This command interprets special characters in the string.
+	
+	$ echo -n "String"
+	This command suppresses the next line  to the given string.
+	
+	$ echo $VARIABLE_NAME
+	This command prints the value of a variable.
+	
+16. $ date
+	This command displays current Date/Time of the system.
+	
+	$ date "+%m/%y/%d"
+	This command prints the date in the specified format.
+	
+	$ date "+%s"
+	This command prints the date in seconds.
+	
+17. $ gzip FILE_NAME
+	This command compresses given file and assigns .gz extension to the compressed file.
+	
+	$ gunzip COMPRESSED_FILE.gz
+	This commands uncompress the compressed file.
+	
+	$ bunzip2 file.bz2
+	Bun zip is used to again compress the already compressed file.
+	
+	$ bunzip2 -d file.bz2
+	This command is used to decompress the file.
+
+	$ zcat file.gz
+	This command is used to display the compressed zip file.
+	
+18. $ locate FILE_NAME
+	This command is used to find/search a file in Linux File System.
+	
+	The locate command is not enabled by default. To enable this command use below commands :
+	1. $ sudo apt-get update
+	2. $ sudo apt-get install mlocate
+	3. $ sudo updatedb
+	
+19. $ grep "SearchString" FILE_NAME
+	This command searches the given string in specified file.
+	
+	$ grep -i "SearchString" FILE_NAME
+	-i : Does case insensitive search in the specified file (Both lower and upper case).
+	
+	$ grep --color "SearchString" FILE_NAME
+	This commands finds the string and colour it in given file.
+	
+	$ grep -A NUMBER "SearchString" FILE_NAME
+	This command searches the given string and also prints given NUMBER of lines after the found string.
+	-A : After
+	
+	$ grep -B NUMBER "SearchString" FILE_NAME
+	This command searches the given string and also prints given NUMBER of lines before the found string.
+	-B : Before
+	
+	$ grep -C NUMBER "SearchString" FILE_NAME
+	This command searches the given string and also prints given NUMBER of lines after and before the found string.
+	-C : Centre
+	
+	$ grep -v "SearchString" FILE_NAME
+	This command returns the lines which doesn't contain the matching string.
+	
+	$ grep -R "SearchString" DIRECTORY
+	This command searches the given string in all the files of specified directory.
+	
+	$ grep "SearchString" FILE_1 FILE-2 FILE-3 FILE-N
+	This command searches the given string in multiple specified file.
+	
+20. $ logout
+	This command is used to logout from current login/session/etc.
+	
+21. $ exit
+	This command is used to exit from the shell. It notifies of running background tasks. Running exit command twice will terminate the pending tasks and close the shell.
+	
+22. $ wc [options] FILE_NAME
+	This command prints the number of lines, words and characters of the specified file.
+	
+	$ wc -l FILE_NAME
+	The -l options displays number of lines in specified file.
+	
+	$ wc -w FILE_NAME
+	The -w options displays number of words in specified file.
+	
+	$ wc -c FILE_NAME
+	The -c options displays number of characters in specified file.
+	
+23. $ sort FILE_NAME
+	This command sorts the given file contents in alphabetical order and prints the sorted data on the screen. This command does not modify the file but only prints it.
+	
+	$ sort -u FILE_NAME
+	The -u option removes duplicate records and only displays first record.
+	
+	$ sort -n FILE_NAME
+	The -n option sorts the file numerically.
+	
+	$ sort -r FILE_NAME
+	The -r option sorts the file in reverse order.
+	
+	$ sort -k STARTING_RANGE, ENDING_RANGE FILE_NAME
+	The -k option sorts the file between specified range of positions.
+	
+24. $ ps
+	This command displays currently running processes in the system.
+	
+	$ ps -ax
+	The -ax option displays all current running processes.
+	
+25. $ kill [PID]
+	This command kills/terminates a particular process specified by process ID. This command send a SIGTERM signal to the process ID to terminate itself.
+	
+26. $ uptime
+	This command shows how long system has been running, how many users are active and average system load.
+	
+27. $ sleep NUMBERs
+	This command puts the system to sleep/pause for specified amount of seconds.
+	
+	$ sleep NUMBERm
+	This command puts the system to sleep/pause for specified amount of minutes.
+	
+	$ sleep NUMBERh
+	This command puts the system to sleep/pause for specified amount of hours.
+	
+	$ sleep NUMBERd
+	This command puts the system to sleep/pause for specified amount of days.
+	
+28. $ seq NUMBER
+	This command prints numbers from 1 to NUMBER specified incremented by 1 and each number in its own line.
+	
+	$ seq STARTING_NUMBER ENDING_NUMBER
+	This command prints the numbers from STARTING_NUMBER to ENDING_NUMBER.
+	
+29. $ cut [options]INDEX FILE_NAME
+	This command prints characters, bytes, etc from specified index of specified file in separate lines.
+	
+	$ cut -c3 FILE_NAME
+	The option -c prints characters on position 3 in each line of specified file.
+	
+	$ cut -c3,4,5 FILE_NAME
+	Multiple positions can be specified separated by comma.
+	
+30. $ paste FILE_NAME
+	This command pastes/prints the content of specified file on the screen.
+	
+	$ paste FILE_1 FILE-2 FILE-3 FILE-N
+	This command merges and prints the content of specified files on the screen side by side.
+	
+31. $ cal
+	This command displays calendar. If no argument has given, it displays current month and year.
+	
+	$ cal MONTH YEAR
+	This command displays calendar of specified month and year.	
+	
+	$ cal -y
+	This command prints the calendar for the whole current year.
+	
+32. $ uniq FILE_NAME
+	This command removes duplicate lines from specified file and prints on the screen.
+	
+	$ uniq -c FILE_NAME
+	This command prints the file contents with count of occurrence for each line.
+	
+	$ uniq -d FILE_NAME
+	The -d option prints only duplicated lines in the specified file.
+	
+33. $ find
+	This command lists files in current and subdirectories. It is a very useful and easy handy command to search for files from the command line. It can be used to find files based on various search conditions like permissions, user ownership, modification date/time, size etc.
+	
+	$ find ./DIRECTORY_NAME
+	This command lists all the files/directories in specified directory.
+	
+	$ find / -type d -name 'DIRECTORY_NAME'
+	This command finds the specified directory.
+	
+34. $ diff FILE-1 FILE-2
+	This command shows the difference between two files.
+	
+35. $ join FILE-1 FILE-2
+	This command joins two files and prints on the screen. It works similar to SQL Join.
+	
+36. $ split -lNUMBER FILE_NAME
+	This command splits the specified file into TotalLinesInSpecifiedFile/NUMBERspecifiedInTheCommand. For example if there are 100 lines in Hello.txt. Then the command "split -l20 Hello.txt" will divide the file into 5 files. Where each file will have 20 lines. Each partitioned file name starts with x.
+	
+	$ split -bNUMBER FILE_NAME
+	This option -b specifies number of bytes that each partitioned file will contain.
+	
+37. $ hostname
+	This command prints hostname/computer name of the system.
+	
+38. $ rev FILE_NAME
+	This command reverses the order of characters in every line in specified file. If no file mentioned, it reads standard input and reverse the characters.
+	
+39. $ tar -c -z -v -f ARCHIVE_FILE_NAME.tar.gz PATH/TO/FILEorDIRECTORY
+	This command compress an entire directory or a single file.
+	-c : Creates an archive.
+	-z : Compresses the archive with gzip.
+	-v : Optional. Displays progress while creating archive.
+	-f : Allows to specify file name of the compressed file.
+	
+	$ tar -x -z -v -f ARCHIVE_FILE_NAME.tar.gz
+	This command extracts the specified archive.
+	-x : Extracts the archive.
+	
+40. $ sudo
+	This command runs a command with super user permission.
+	
+41. $ apt-get install
+	This command installs desired package. apt-get is the command-line tool for working with APT software packages which will install one or more packages desired for installation.
+	
+	$ apt-get update
+	This command downloads the package list from the repositories, updates them to get information on the newest versions of packages and their dependencies.
+	
+	$ apt-get upgrade
+	This command upgrades all currently installed software packages.
+	
+42. $ which COMMAND/EXECUTABLE
+	This command returns path of the executable or a command. The path is generally contained by $PATH environment variable.
+	
+43. $ NAME -version
+	This command is used to print out version information about OpenSSL (Secure Sockets Layer)or prints OpenSSL version information.
+	
+44. $ top
+	This command displays top CPU process. It provides a current progress look at processor activity in real time. It can sort the tasks by CPU usage, memory usage and runtime. It displays a listing of the most CPU-intensive tasks on the system, and provides an interactive interface for manipulating processes.
+	
+45. $ who
+	This command displays who logged on along with time for current session. It is used to print information about users who are currently active in. It can only see a real user who logged in. It won’t see a user who is on line with su command (switch user).
+	
+46. $ tail FILE_NAME
+	This command displays last 10 lines of mentioned file. It is used to print the last N lines from the file on the terminal. It used with log files to read the last few lines to know about the error messages.
+	
+	$tail FILE_NAME -n 100
+	The -n option is used to specify number of lines to be displayed. This command will display last 100 lines of the mentioned file.
+	
+47. $ head FILE_NAME
+	This command displays first 10 lines of mentioned file. It is used to print the first N lines from the file on the terminal.
+	
+	$ head -n 100 FILE_NAME
+	The -n option is used to specify number of lines to be displayed. This command will display first 100 lines of the mentioned file. If more than one files are mentioned, the command will display last N lines from each file.
+	
+	$ head *
+	This command displays contents of all the files in the current working directory.
+	
+48. $ zcat COMPRESSED_FILE
+	This command shows the content of specified COMPRESSED_FILE.
+	
+49. $ shred -zuv FILE_NAME
+	This command will remove the file after overwriting it.
+	-z : Add a final overwrite with zeros to hide shredding.
+	-u : Truncate and remove file after overwriting.
+	-v : Show progress.
+	
+50. $ man COMMAND
+	This command show usage manual of any Linux command.
+	
+51. $ history
+	This command displays history of recently used bash commands.
+	
+	$ history | tail
+	This command will show history of last 10 recently used bash commands.
+	
+	$ history | grep COMMAND
+	This command looks for a specified command in history.
+	
+	$ history -c
+	This command clears the history of bash commands stored in the memory.
+	
+	$ history | grep cd
+	This command shows the commands from history which have word cd in it.
+	
+	$ history | head
+	This command will show history of first 10 recently used bash commands.
+	
+	$ ~/.bash_history
+	This command shows the path where the bash of history is residing in memory. It is a dotfile.
+	
+	$ echo > ~/. bash_history
+	This command will delete the history from the file.
+	
+52. $ egrep "STRING-1|STRING-2" FILE
+	This command returns the line which have STRING-1 or STRING-2 from the specified file.
+	
+53. $ whoami
+	This command returns the user name.
+	
+54. $ chmod ENTITY+PERMISSION FILE
+	This command is used to give permission for specified file to given ENTITY (User or Group) with given Permission type (Read, write etc)
+	
+	$ chmod u+r FILE
+	This command gives read only permission for the specified file to the user (You).
+	
+	$ chmod ug+rwx FILE
+	This command gives read, write and execute permission for the specified file to the user and group.
+	
+	$ chmod go-wx FILE
+	This command removes read and execute permission for the specified file to the group but not for the user.
+	
+	$ chmod a-rwx FILE
+	This command removes read, write and execute permission for the specified file from all user, group and the world.
+	
+55. $ chown USER FILE
+	This command is used to change the owner of specified FILE to specified user.
+	
+56. $ su USERNAME
+	This command switches the user to specified user name.
+	su : Switch User.
+	
+57. $ set -o vi
+	This command is used to set various properties of your shell. It will use vi style key binding in the terminal.
+	
+	$ set -o emacs
+	This command uses emacs style key bindings in the terminal.
+	
+	$ set –x
+	This command will activate debugging from here.
+	
+	$ set +x
+	This command will deactivate debugging from here.
+	
+58. $ unset VARIABLE_NAME
+	This command clears the value of specified variable.
+	
+59. $ uname
+	This command prints various system information.
+	
+	$ uname -a
+	This command prints all the system information.
