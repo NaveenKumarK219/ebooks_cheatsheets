@@ -4,12 +4,12 @@ This repository contains ebooks & materials of various topics.
 ## Directory Structure
 ```
 Apache Products  
-|	Apache Flink  
-|	Apache Geode  
-|	Apache Hadoop  
-|	Apache JIRA  
-|	Apache Kafka  
-|	Apache Solr  
-|	Apache Spark  
+|___Apache Flink  
+|___Apache Geode  
+|___Apache Hadoop  
+|___Apache JIRA  
+|___Apache Kafka  
+|___Apache Solr  
+|___Apache Spark  
 Bitcoins
 ```
