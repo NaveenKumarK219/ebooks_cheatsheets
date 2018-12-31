@@ -10,7 +10,8 @@ Apache Products
 |_____ Apache Geode  
 |_____ Apache Hadoop  
 |_____ Apache JIRA  
-|_____ Apache Kafka  
+|_____ Apache Kafka
+|_____ Apache Pig
 |_____ Apache Solr  
 |_____ Apache Spark  
 |
