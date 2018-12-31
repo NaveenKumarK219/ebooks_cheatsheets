@@ -108,7 +108,7 @@ Software Development
 |_____ API
 |_____ CQRS
 |_____ Data Structure & Algorithms
-|_____ DDD (Domain Driven Design)
+|_____ DDD (Domain-Driven Design)
 |_____ Design Patterns
 |_____ Messaging
 |_____ Microservices
