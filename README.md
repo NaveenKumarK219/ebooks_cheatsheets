@@ -125,24 +125,24 @@ Web Development
 |_____ HTML
 |_____ Ionic
 |_____ JavaScript Frameworks
-|	  |
-|	  |_____ Ajax
-|	  |_____ Angular
-|	  |_____ Backbone
-|	  |_____ CoffeeScript
-|	  |_____ D3
-|	  |_____ Express
-|	  |_____ Hapi
-|	  |_____ JavaScript
-|	  |_____ jQuery
-|	  |_____ Knockout
-|	  |_____ MEAN
-|	  |_____ MERN
-|	  |_____ Node
-|	  |_____ Raphaël
-|	  |_____ React
-|	  |_____ TypeScript
-|	  |_____ Vue
+|	|
+|	|_____ Ajax
+|	|_____ Angular
+|	|_____ Backbone
+|	|_____ CoffeeScript
+|	|_____ D3
+|	|_____ Express
+|	|_____ Hapi
+|	|_____ JavaScript
+|	|_____ jQuery
+|	|_____ Knockout
+|	|_____ MEAN
+|	|_____ MERN
+|	|_____ Node
+|	|_____ Raphaël
+|	|_____ React
+|	|_____ TypeScript
+|	|_____ Vue
 |
 |_____ PHP
 |_____ SVG
