@@ -127,7 +127,7 @@ Web Development
 |_____ JavaScript Frameworks
 |	  |
 |	  |_____ Ajax
-|     |_____ Angular
+|	  |_____ Angular
 |	  |_____ Backbone
 |	  |_____ CoffeeScript
 |	  |_____ D3
