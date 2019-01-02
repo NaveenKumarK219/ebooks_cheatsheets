@@ -8,7 +8,9 @@ Apache Products
 |_____ Apache Cassandra
 |_____ Apache Flink  
 |_____ Apache Geode  
-|_____ Apache Hadoop  
+|_____ Apache Hadoop
+|_____ Apache HBase
+|_____ Apache Hive
 |_____ Apache JIRA  
 |_____ Apache Kafka
 |_____ Apache Mesos
@@ -36,6 +38,7 @@ Databases
 |_____ MongoDB
 |_____ MySQL
 |_____ NoSQL
+|_____ Oracle SQL
 |_____ Redis
 |_____ SQLServer
 |_____ SQLite
@@ -99,6 +102,7 @@ Programming Languages
 |_____ C
 |_____ C#
 |_____ C++
+|_____ Clojure
 |_____ Linux
 |_____ Go
 |_____ Java
