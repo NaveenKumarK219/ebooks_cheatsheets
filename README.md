@@ -35,10 +35,12 @@ Data Science
 Databases
 |
 |_____ Database
+|_____ MariaDB
 |_____ MongoDB
 |_____ MySQL
 |_____ NoSQL
 |_____ Oracle SQL
+|_____ PostgreSQL
 |_____ Redis
 |_____ SQLServer
 |_____ SQLite
@@ -52,6 +54,7 @@ DevOps Tools
 |_____ Jenkins
 |_____ Junit
 |_____ Kubernetes
+|_____ NGINX
 |_____ Vagrant
 |
 Discrete Mathematics
