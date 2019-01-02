@@ -11,6 +11,7 @@ Apache Products
 |_____ Apache Hadoop  
 |_____ Apache JIRA  
 |_____ Apache Kafka
+|_____ Apache Mesos
 |_____ Apache Pig
 |_____ Apache Solr  
 |_____ Apache Spark  
@@ -48,6 +49,7 @@ DevOps Tools
 |_____ Jenkins
 |_____ Junit
 |_____ Kubernetes
+|_____ Vagrant
 |
 Discrete Mathematics
 |
@@ -78,10 +80,13 @@ OAuth
 Operating Systems
 |
 |_____ Android
+|_____ CentOS
+|_____ CoreOS
 |_____ FreeBSD
 |_____ iOS
 |_____ Kali Linux
 |_____ Linux
+|_____ Linux Mint
 |_____ Operating System
 |_____ Red Hat Linux
 |_____ Ubuntu
