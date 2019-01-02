@@ -128,7 +128,9 @@ Web Development
 |
 |_____ Bootstrap
 |_____ CSS
+|_____ Django
 |_____ Elasticsearch
+|_____ Flask
 |_____ HTML
 |_____ Ionic
 |_____ JavaScript Frameworks
