@@ -5,7 +5,9 @@ This repository contains ebooks & materials of various topics.
 ```
 Apache Products  
 |
+|_____ Apache Camel
 |_____ Apache Cassandra
+|_____ Apache Felix
 |_____ Apache Flink  
 |_____ Apache Geode  
 |_____ Apache Hadoop
@@ -13,8 +15,10 @@ Apache Products
 |_____ Apache Hive
 |_____ Apache JIRA  
 |_____ Apache Kafka
+|_____ Apache Karaf
 |_____ Apache Mesos
 |_____ Apache Pig
+|_____ Apache ServiceMix
 |_____ Apache Solr  
 |_____ Apache Spark  
 |
