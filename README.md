@@ -52,7 +52,9 @@ Databases
 |
 DevOps Tools
 |
+|_____ Ansible
 |_____ AWS (Amazon Web Services)
+|_____ Chef
 |_____ DevOps
 |_____ Docker
 |_____ Git
@@ -60,6 +62,7 @@ DevOps Tools
 |_____ Junit
 |_____ Kubernetes
 |_____ NGINX
+|_____ Puppet
 |_____ Vagrant
 |
 Discrete Mathematics
@@ -155,7 +158,9 @@ Web Development
 |	|_____ CoffeeScript
 |	|_____ D3
 |	|_____ Express
+|	|_____ Ext JS
 |	|_____ Hapi
+|	|_____ Jasmine
 |	|_____ JavaScript
 |	|_____ jQuery
 |	|_____ Knockout
