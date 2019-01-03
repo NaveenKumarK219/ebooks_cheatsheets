@@ -111,6 +111,7 @@ Programming Languages
 |_____ C#
 |_____ C++
 |_____ Clojure
+|_____ Elixir
 |_____ Linux
 |_____ Go
 |_____ Java
