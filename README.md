@@ -112,6 +112,7 @@ Programming Languages
 |_____ C++
 |_____ Clojure
 |_____ Elixir
+|_____ Erlang
 |_____ Linux
 |_____ Go
 |_____ Java
@@ -166,6 +167,7 @@ Web Development
 |	|_____ TypeScript
 |	|_____ Vue
 |
+|_____ Phoenix
 |_____ PHP
 |_____ SVG
 |_____ WordPress
