@@ -7,6 +7,7 @@ Apache Products
 |
 |_____ Apache Camel
 |_____ Apache Cassandra
+|_____ Apache CXF
 |_____ Apache Felix
 |_____ Apache Flink  
 |_____ Apache Geode  
