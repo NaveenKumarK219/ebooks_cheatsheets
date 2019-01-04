@@ -136,6 +136,7 @@ Programming Languages
 |_____ R
 |_____ Ruby & Rails
 |_____ Scala
+|_____ Scheme
 |_____ Swift
 |_____ Visual Basic
 |
