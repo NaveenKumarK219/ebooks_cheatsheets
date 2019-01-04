@@ -64,10 +64,14 @@ DevOps Tools
 |_____ NGINX
 |_____ Puppet
 |_____ Vagrant
+|_____ Windows PowerShell
 |
 Discrete Mathematics
 |
-Eclipse
+Editors
+|
+|_____ Eclipse
+|_____ Microsoft Visual Studio
 |
 Embedded Systems
 |
@@ -80,6 +84,8 @@ Frameworks
 |_____ TOGAF (The Open Group Architecture Framework)
 |
 Game Development
+|
+Hacking
 |
 How To
 |
@@ -101,6 +107,7 @@ Operating Systems
 |_____ Kali Linux
 |_____ Linux
 |_____ Linux Mint
+|_____ Mac
 |_____ Operating System
 |_____ Red Hat Linux
 |_____ Ubuntu
@@ -110,16 +117,19 @@ Operating Systems
 Programming Languages
 |
 |_____ Assembly
+|_____ AWK
 |_____ C
 |_____ C#
 |_____ C++
 |_____ Clojure
+|_____ Dart
 |_____ Elixir
 |_____ Erlang
 |_____ Linux
 |_____ Go
 |_____ Java
 |_____ Lisp
+|_____ Objective-C
 |_____ Python
 |_____ R
 |_____ Ruby & Rails
@@ -143,6 +153,7 @@ Software Development
 |
 Web Development
 |
+|_____ ASP .NET
 |_____ Bootstrap
 |_____ CSS
 |_____ Django
