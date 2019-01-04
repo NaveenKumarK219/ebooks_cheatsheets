@@ -64,6 +64,7 @@ DevOps Tools
 |_____ NGINX
 |_____ Puppet
 |_____ Vagrant
+|_____ VMware
 |_____ Windows PowerShell
 |
 Discrete Mathematics
@@ -130,11 +131,15 @@ Programming Languages
 |_____ Java
 |_____ Lisp
 |_____ Objective-C
+|_____ Perl
 |_____ Python
 |_____ R
 |_____ Ruby & Rails
 |_____ Scala
 |_____ Swift
+|_____ Visual Basic
+|
+Robotics
 |
 Software Development
 |
