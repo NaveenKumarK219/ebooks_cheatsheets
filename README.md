@@ -7,6 +7,7 @@ Apache Products
 |
 |_____ Apache Camel
 |_____ Apache Cassandra
+|_____ Apache CouchDB
 |_____ Apache CXF
 |_____ Apache Felix
 |_____ Apache Flink  
@@ -21,7 +22,8 @@ Apache Products
 |_____ Apache Pig
 |_____ Apache ServiceMix
 |_____ Apache Solr  
-|_____ Apache Spark  
+|_____ Apache Spark
+|_____ Apache Subversion
 |
 Bitcoins
 |
@@ -62,6 +64,7 @@ DevOps Tools
 |_____ Junit
 |_____ Kubernetes
 |_____ NGINX
+|_____ OpenStack
 |_____ Puppet
 |_____ Vagrant
 |_____ VMware
@@ -73,6 +76,7 @@ Editors
 |
 |_____ Eclipse
 |_____ Microsoft Visual Studio
+|_____ Vim
 |
 Embedded Systems
 |
@@ -131,6 +135,7 @@ Programming Languages
 |_____ Go
 |_____ Java
 |_____ Lisp
+|_____ Lua
 |_____ Objective-C
 |_____ Perl
 |_____ Python
