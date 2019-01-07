@@ -63,6 +63,7 @@ DevOps Tools
 |_____ Jenkins
 |_____ Junit
 |_____ Kubernetes
+|_____ Mercurial
 |_____ NGINX
 |_____ OpenStack
 |_____ Puppet
