@@ -103,6 +103,7 @@ Operating Systems
 |_____ Android
 |_____ CentOS
 |_____ CoreOS
+|_____ Fedora Linux
 |_____ FreeBSD
 |_____ iOS
 |_____ Kali Linux
