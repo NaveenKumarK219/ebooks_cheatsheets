@@ -160,7 +160,7 @@ Software Development
 |_____ Design Patterns
 |_____ Messaging
 |_____ Microservices
-|_____ OSGI (Open Service Gateway Initiative)
+|_____ OSGI
 |_____ Programming
 |_____ RabbitMQ
 |_____ Software Engineering
