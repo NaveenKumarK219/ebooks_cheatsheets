@@ -36,7 +36,9 @@ Data Science
 |_____ Artificial Intelligence
 |_____ Data Mining
 |_____ Data Science & Machine Learning
+|_____ Data Structure & Algorithms
 |_____ Deep Learning
+|_____ Mathematics
 |_____ Statistics
 |
 Databases
@@ -70,8 +72,6 @@ DevOps Tools
 |_____ Vagrant
 |_____ VMware
 |_____ Windows PowerShell
-|
-Discrete Mathematics
 |
 Editors
 |
@@ -154,7 +154,6 @@ Software Development
 |_____ Agile
 |_____ API
 |_____ CQRS
-|_____ Data Structure & Algorithms
 |_____ DDD (Domain-Driven Design)
 |_____ Design Patterns
 |_____ Messaging
