@@ -65,9 +65,11 @@ DevOps Tools
 |_____ NGINX
 |_____ OpenStack
 |_____ Puppet
+|_____ Terraform
 |_____ Vagrant
 |_____ VMware
 |_____ Windows PowerShell
+|_____ Zabbix
 |
 Editors
 |
