@@ -27,10 +27,6 @@ Apache Products
 |
 Bitcoins
 |
-Cloud Computing
-|
-Cryptography
-|
 Data Science
 |
 |_____ Artificial Intelligence
@@ -57,7 +53,7 @@ Databases
 DevOps Tools
 |
 |_____ Ansible
-|_____ AWS (Amazon Web Services)
+|_____ AWS
 |_____ Chef
 |_____ DevOps
 |_____ Docker
@@ -101,7 +97,10 @@ Microsoft Office
 |
 Networking
 |
-OAuth
+Security
+|
+|_____ Cryptography
+|_____ OAuth
 |
 Operating Systems
 |
@@ -154,6 +153,7 @@ Software Development
 |_____ Agile
 |_____ API
 |_____ CQRS
+|_____ Cloud Computing
 |_____ DDD (Domain-Driven Design)
 |_____ Design Patterns
 |_____ Messaging
