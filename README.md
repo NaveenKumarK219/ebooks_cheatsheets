@@ -69,6 +69,7 @@ DevOps Tools
 |_____ Vagrant
 |_____ VMware
 |_____ Windows PowerShell
+|_____ XMind
 |_____ Zabbix
 |
 Editors
