@@ -86,6 +86,7 @@ Frameworks
 |_____ Axon Framework
 |_____ Hibernate
 |_____ Mule
+|_____ MyBatis
 |_____ Spring Framework
 |_____ TOGAF (The Open Group Architecture Framework)
 |
