@@ -30,11 +30,15 @@ Bitcoins
 Data Science
 |
 |_____ Artificial Intelligence
+|_____ Big Data
 |_____ Data Mining
-|_____ Data Science & Machine Learning
+|_____ Data Science
 |_____ Data Structure & Algorithms
 |_____ Deep Learning
+|_____ Machine Learning
 |_____ Mathematics
+|_____ Natural Language Processing
+|_____ Neural Networks
 |_____ Statistics
 |
 Databases
