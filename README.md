@@ -11,7 +11,6 @@ Apache Products
 |_____ Apache CXF
 |_____ Apache Felix
 |_____ Apache Flink  
-|_____ Apache Geode  
 |_____ Apache Hadoop
 |_____ Apache HBase
 |_____ Apache Hive
