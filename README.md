@@ -59,6 +59,7 @@ DevOps Tools
 |_____ DevOps
 |_____ Docker
 |_____ Git
+|_____ Heroku
 |_____ Jenkins
 |_____ Junit
 |_____ Kubernetes
@@ -70,7 +71,9 @@ DevOps Tools
 |_____ Terraform
 |_____ Vagrant
 |_____ VMware
+|_____ WildFly
 |_____ Windows PowerShell
+|_____ Wireshark
 |_____ XMind
 |_____ Zabbix
 |
@@ -162,6 +165,7 @@ Software Development
 |_____ Cloud Computing
 |_____ DDD (Domain-Driven Design)
 |_____ Design Patterns
+|_____ Logging
 |_____ Messaging
 |_____ Microservices
 |_____ OSGI
