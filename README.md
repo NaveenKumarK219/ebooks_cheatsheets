@@ -17,6 +17,7 @@ Apache Products
 |_____ Apache JIRA  
 |_____ Apache Kafka
 |_____ Apache Karaf
+|_____ Apache Maven
 |_____ Apache Mesos
 |_____ Apache Pig
 |_____ Apache ServiceMix
