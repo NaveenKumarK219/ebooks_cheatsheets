@@ -48,6 +48,7 @@ Databases
 |_____ MongoDB
 |_____ MySQL
 |_____ NoSQL
+|_____ Oracle PL/SQL
 |_____ Oracle SQL
 |_____ PostgreSQL
 |_____ Redis
