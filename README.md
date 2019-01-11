@@ -79,6 +79,7 @@ DevOps Tools
 |_____ Puppet
 |_____ Selenium
 |_____ Snort
+|_____ SolarWinds
 |_____ SonarQube
 |_____ Splunk
 |_____ Terraform
