@@ -64,6 +64,7 @@ DevOps Tools
 |_____ DevOps
 |_____ Docker
 |_____ Git
+|_____ Gradle
 |_____ Heroku
 |_____ Jenkins
 |_____ Junit
