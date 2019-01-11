@@ -77,6 +77,7 @@ DevOps Tools
 |_____ OpenStack
 |_____ Puppet
 |_____ Selenium
+|_____ Splunk
 |_____ Terraform
 |_____ Vagrant
 |_____ VMware
