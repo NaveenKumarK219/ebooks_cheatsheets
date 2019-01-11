@@ -75,6 +75,7 @@ DevOps Tools
 |_____ NGINX
 |_____ OpenShift
 |_____ OpenStack
+|_____ Prometheus
 |_____ Puppet
 |_____ Selenium
 |_____ SonarQube
