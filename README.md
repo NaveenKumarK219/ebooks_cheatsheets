@@ -130,11 +130,6 @@ Microsoft Office
 |
 Networking
 |
-Security
-|
-|_____ Cryptography
-|_____ OAuth
-|
 Operating Systems
 |
 |_____ Android
@@ -180,6 +175,13 @@ Programming Languages
 |_____ Visual Basic
 |
 Robotics
+|
+Security
+|
+|_____ Computer Security
+|_____ Cryptography
+|_____ Cyber Security
+|_____ OAuth
 |
 Software Development
 |
