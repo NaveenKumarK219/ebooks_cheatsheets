@@ -122,8 +122,6 @@ Game Development
 |
 Hacking
 |
-How To
-|
 Images
 |
 IoT (Internet of Things)
