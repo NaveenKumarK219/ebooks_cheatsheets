@@ -233,6 +233,7 @@ Web Development
 |_____ Phoenix
 |_____ PHP
 |_____ SVG
+|_____ Vaadin Framework
 |_____ WordPress
 |_____ XML
 
