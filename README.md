@@ -3,7 +3,7 @@ This repository contains ebooks & materials of various topics.
 
 ## Directory Structure
 ```
-![Apache Products] (https://github.com/amanver16/ebooks_cheatsheets/tree/master/Apache%20Products)
+[Apache Products] (https://github.com/amanver16/ebooks_cheatsheets/tree/master/Apache%20Products)
 |
 |_____ Apache Ant
 |_____ Apache Camel
