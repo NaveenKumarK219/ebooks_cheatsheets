@@ -97,6 +97,7 @@ Editors
 |_____ Eclipse
 |_____ IntelliJ IDEA
 |_____ Microsoft Visual Studio
+|_____ NetBeans
 |_____ Vim
 |
 Embedded Systems
