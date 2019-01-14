@@ -169,7 +169,8 @@ Programming Languages
 |_____ Perl
 |_____ Python
 |_____ R
-|_____ Ruby & Rails
+|_____ Ruby on Rails
+|_____ Rust
 |_____ Scala
 |_____ Scheme
 |_____ Swift
