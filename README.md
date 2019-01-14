@@ -79,6 +79,7 @@ DevOps Tools
 |_____ OpenStack
 |_____ Prometheus
 |_____ Puppet
+|_____ PuTTY
 |_____ Selenium
 |_____ Snort
 |_____ SolarWinds
