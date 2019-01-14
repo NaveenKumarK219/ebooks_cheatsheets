@@ -98,6 +98,7 @@ Editors
 |_____ IntelliJ IDEA
 |_____ Microsoft Visual Studio
 |_____ NetBeans
+|_____ Sublime Text
 |_____ Vim
 |_____ Visual Studio Code
 |
