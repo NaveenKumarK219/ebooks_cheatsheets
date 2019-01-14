@@ -95,6 +95,7 @@ DevOps Tools
 Editors
 |
 |_____ Eclipse
+|_____ Emacs
 |_____ IntelliJ IDEA
 |_____ Microsoft Visual Studio
 |_____ NetBeans
