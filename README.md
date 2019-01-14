@@ -22,8 +22,9 @@ Apache Products
 |_____ Apache Mesos
 |_____ Apache Pig
 |_____ Apache ServiceMix
-|_____ Apache Solr  
+|_____ Apache Solr
 |_____ Apache Spark
+|_____ Apache Struts
 |_____ Apache Subversion
 |_____ Apache Tomcat
 |
