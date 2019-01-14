@@ -95,6 +95,7 @@ DevOps Tools
 Editors
 |
 |_____ Eclipse
+|_____ IntelliJ IDEA
 |_____ Microsoft Visual Studio
 |_____ Vim
 |
