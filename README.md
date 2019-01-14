@@ -99,6 +99,7 @@ Editors
 |_____ Microsoft Visual Studio
 |_____ NetBeans
 |_____ Vim
+|_____ Visual Studio Code
 |
 Embedded Systems
 |
