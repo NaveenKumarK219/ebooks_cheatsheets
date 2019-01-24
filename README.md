@@ -222,7 +222,7 @@ Web Development
 |	|_____ CoffeeScript
 |	|_____ D3
 |	|_____ Express
-|	|_____ Ext JS
+|	|_____ Ext
 |	|_____ Hapi
 |	|_____ Jasmine
 |	|_____ JavaScript
