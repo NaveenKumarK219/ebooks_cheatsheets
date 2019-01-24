@@ -1,0 +1,16 @@
+This document guides how to install Minishift on virtual box on windows operating system.
+
+Step 1: Download the latest version of Minishift ((v1.30.0 at the time of writing this guide) from https://github.com/minishift/minishift/releases.
+Step 2: Download the file named "minishift-1.30.0-windows-amd64.zip" and extract the content in folder of your choice.
+Step 3: Go to the extracted directory (For example: c:/>minishift) and copy the directory path and set it to path environment variable.
+Step 4: Open command prompt and check if the environment variable for minishift is properly set by using this command.
+		minishift version
+Step 5: Now VirtualBox must be manually installed in order to use the embedded VirtualBox Drivers for minishift. (VirtualBox v5.1.12 or later is required, ignore this step if already installed).
+Step 6: Now VirtualBox must be identified to the Minishift. There are two ways to tell minishift to use the virtualbox drivers. Use below commands on command prompt for preferred method.
+
+		1. Temporary: This method requires to run this command each time you start minishift.
+			minishift start --vm-driver virtualbox
+		2. Permanent: This method permanently sets virtualbox for minishift and this command should be used only once.
+			minishift config set vm-driver virtualbox
+			
+Step 7: That's it minishift is now installed on virtualbox. You'll be able to see a URL to the openshift web console and login credentials. 
