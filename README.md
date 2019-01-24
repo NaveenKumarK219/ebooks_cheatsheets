@@ -71,6 +71,7 @@ DevOps Tools
 |_____ Gradle
 |_____ Heroku
 |_____ Jenkins
+|_____ JMX
 |_____ Junit
 |_____ Kubernetes
 |_____ Mercurial
