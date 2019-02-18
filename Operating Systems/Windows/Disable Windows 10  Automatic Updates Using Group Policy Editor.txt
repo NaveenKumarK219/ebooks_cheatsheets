@@ -1,0 +1,20 @@
+Steps to stop automatic updates in Windows 10 using Group Policy Editor...
+Note: This method is not applicable for Windows 10 Home Edition because Group Policy is disabled in this edition.
+
+Step 1: Open Group Policy Editor. There are two ways to Open it :.
+	a. To open group policy editor open Start Menu and type "group policy" in search bar then select "Edit Group Policy".
+	b. Press "Windows+R" key to open "Run" window. Type "gpedit" and press enter.
+	
+Step 2: Now in group policy window select "Computer Configuration" on left pane and expand it (Default already expanded).
+
+Step 3: Select "Administrative Templates" from expanded options.
+
+Step 4: Double click on "Windows Components" on right pane.
+
+Step 5: Scroll down and double click on "Windows Update".
+
+Step 6: Double Click on "Configure Automatic Updates".
+
+Step 7: Now a new window will open. You can completely disable automatic updates by selecting "Disable" radio button. If you do not want to permanently disable it then select "Enable" radio button and in the "Options" pane select your desired configuration from "Configure Automatic Updating" drop down.
+
+That's it !!!
